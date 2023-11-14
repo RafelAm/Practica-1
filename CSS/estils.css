@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #EEE;
+}
+
+
+nav{
+    text-align: center;
+    
+}
+
+.menu {
+    list-style-type: none;
+
+    overflow: hidden;
+    background-color: teal;
+  }
+  
+ .menu  li {
+    display: inline-block;
+    font-family: 'Cambria';
+    font-size: 20px;
+    padding: 0.7%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+
+  }
+  
+  .menu li a {
+    color: #EEEEEE;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  .menu  li a:hover {
+    background-color: #EEEEEE;
+    color: #222831;
+  }
