@@ -41,3 +41,18 @@ nav{
     background-color: #EEEEEE;
     color: #222831;
   }
+
+  footer{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5%;
+    height: 177px;
+    background-color: #222831;
+    color: #EEEEEE;
+  }
+  footer a{
+    color: TEAL;
+  }
+  footer a:hover{
+    color: #EEEEEE;
+  }
