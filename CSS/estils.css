@@ -13,6 +13,7 @@ main {
 }
 
 /*Parametros navbar*/
+/*Posición, tamaño y color*/
 header {
   position: absolute;
   top: 0;
@@ -96,6 +97,7 @@ footer a:hover {
 }
 
 /*Parametros tabla.html*/
+/*Bordes, color, tamaño y posición*/
 .tabla1 {
   display: block;
   align-items: center;
@@ -119,6 +121,7 @@ td {
   width: 25%;
   padding: 10px;
 }
+/*Color de la tabla*/
 .tabla1 th{
   background-color: grey;
 }
@@ -154,13 +157,13 @@ audio {
 
 audio::-webkit-media-controls-panel {
   background-color: teal;
-  /* Cambia el color del fondo de los controles en navegadores WebKit (Chrome, Safari) */
+  /* Cambia el color del fondo de los controles en navegadores*/
 }
 
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
   color: #eee;
-  /* Cambia el color del texto de tiempo en navegadores WebKit */
+  /* Cambia el color del texto de tiempo en navegadores*/
 }
 
 .h2A {
