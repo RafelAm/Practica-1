@@ -1,66 +1,185 @@
-*{
-    margin: 0;
-}
-body{
-    background-color: #EEE;
+/*Parametros generales de la web*/
+* {
+  margin: 0;
+  margin-bottom: 0;
 }
 
+body {
+  background-color: #eee;
+}
 
-nav{
-    text-align: center;
-    
+main {
+  margin-top: 3%;
+}
+
+/*Parametros navbar*/
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  text-align: center;
 }
 
 .menu {
-    list-style-type: none;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: teal;
+}
 
-    overflow: hidden;
-    background-color: teal;
-  }
-  
- .menu  li {
-    display: inline-block;
-    font-family: 'Cambria';
-    font-size: 20px;
-    padding: 0.7%;
-    padding-left: 10%;
-    padding-right: 10%;
+.menu li {
+  display: inline-block;
+  font-family: "Cambria";
+  font-size: 20px;
+  padding: 0.7%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
+.menu li a {
+  color: #eeeeee;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+.menu li a:hover {
+  background-color: #eeeeee;
+  color: #222831;
+}
 
-  }
-  
-  .menu li a {
-    color: #EEEEEE;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-  }
-  
-  .menu  li a:hover {
-    background-color: #EEEEEE;
-    color: #222831;
-  }
+#hr1 {
+  border: none;
+  height: 3px;
+  background: #222831;
+  width: 100%;
+  margin-top: 0;
+}
 
-  footer{
-    text-align: center;
-    font-size: 16px;
-    padding-top: 5%;
-    height: 177px;
-    background-color: #222831;
-    color: #EEEEEE;
-  }
-  footer a{
-    color: TEAL;
-    text-decoration: none;
-  }
-  footer a:hover{
-    color: #EEEEEE;
-  }
+/*Parametros footer*/
+footer {
+  display: block;
+  bottom: 0;
+  align-items: end;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5%;
+  height: 201px;
+  width: 100%;
+  background-color: #222831;
+  color: #eeeeee;
+  position: absolute;
+}
+
+footer a {
+  color: teal;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eeeeee;
+}
+
+/*Imagen y Titulo main inici.html*/
 .Tit {
   text-align: center;
-
 }
-.img{
+
+.img {
   margin-left: 45%;
+}
+
+/*Parametros article inici.html*/
+.art1 {
+  text-align: center;
+}
+
+/*Parametros tabla.html*/
+.tabla1 {
+  display: block;
+  align-items: center;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  left: 27%;
+}
+
+.tabla1 table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  padding: 19px;
+}
+
+.tabla1 th,
+td {
+  border-bottom: 1px solid black;
+  width: 25%;
+  padding: 10px;
+}
+.tabla1 th{
+  background-color: grey;
+}
+
+#tr1{
+  background-color: #c3c3c3;
+}
+
+#tr2{
+  background-color: rgb(4, 148, 148);
+}
+
+#tr3{
+  background-color: #c3c3c3;
+}
+
+#tr4{
+  background-color: rgb(4, 148, 148);
+}
+
+#tr5{
+  background-color: #c3c3c3;
+}
+
+
+/*Parametros Audios.html*/
+
+audio {
+  display: block;
+  align-items: center;
+  margin-left: 42%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: teal;
+  /* Cambia el color del fondo de los controles en navegadores WebKit (Chrome, Safari) */
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: #eee;
+  /* Cambia el color del texto de tiempo en navegadores WebKit */
+}
+
+.h2A {
+  text-align: center;
+}
+
+.spA {
+  text-align: center;
+  margin-left: 3%;
+}
+
+/*Parametros Video.html*/
+.if1 {
+  display: inline;
+  width: 640px;
+  height: 480px;
+  padding-left: 11%;
+}
+
+#h1v {
+  text-align: center;
 }
